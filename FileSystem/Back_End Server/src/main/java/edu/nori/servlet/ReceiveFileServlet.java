@@ -44,7 +44,6 @@ public class ReceiveFileServlet extends HttpServlet {
             System.out.println("！！！前端服务器传送文件信息失败");
         }finally {
             objectInputStream.close();
-            objectOutputStream.close();
         }
 
         try {
